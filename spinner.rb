@@ -4,7 +4,7 @@ def spinner()
   n1 = rand(3)
   n2 = rand(3)
   # NOTE: n2 should not be initialized at the top of the file
-  # (over 12 lines of code "away" form it's first use). Better 
+  # (over 12 lines of code "away" from it's first use). Better 
   # to keep code in close proximity to where it is used.
   
   if n1 == 0
