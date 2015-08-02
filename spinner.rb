@@ -100,6 +100,13 @@ def spinner_take3
 end
 
 # ---------------------------------------------
+# The rules:
+# The referee spins the spinner, then calls out the body part and the color 
+# that the arrow points to. For example, the referee may call out: 
+#                  "Right hand, red." 
+# All players, at the same time, must then try to 
+# follow the referee's directions as explained below. 
+
 def body_part
   ['Left Hand', 'Right Hand', 'Left Foot', 'Right Foot'].sample
 end
