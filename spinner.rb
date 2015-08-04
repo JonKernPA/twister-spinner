@@ -117,7 +117,7 @@ end
 
 def spin
   puts __method__
-  puts "\tYour #{body_part} on #{color}"
+  puts "\tPlace your #{body_part} on #{color}"
 end
 
 # ---------------------------------------------
