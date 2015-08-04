@@ -77,24 +77,24 @@ def spinner_take3
   puts __method__
   color = case rand(3)
   when 0
-    color = "Red"
+    "Red"
   when 1
-    color = "Blue"
+    "Blue"
   when 2
-    color = "Yellow"
+    "Yellow"
   when 3
-    color = "Green"
+    "Green"
   end
 
   body_part = case rand(3)
   when 0
-    body_part = "Left Hand"
+    "Left Hand"
   when 1
-    body_part = "Right Hand"
+    "Right Hand"
   when 2
-    body_part = "Left Foot"
+    "Left Foot"
   when 3
-    body_part = "Right Foot"
+    "Right Foot"
   end
   puts "\tPlace your #{body_part} on #{color}."
 end
